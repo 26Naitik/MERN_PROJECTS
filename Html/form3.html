@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+</head>
+
+<body>
+    <h1>Job Application Form</h1>
+
+    <main>
+        <form>
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="full name">
+                    Name:
+                </label>
+                <input type="text" id="name" placeholder="John Doe" required>
+
+                <br>
+                <br>
+
+                <label for="email">
+                    Email:
+                    <input type="text" id="mail" placeholder="abc@gmail.com" required>
+                </label>
+                <br>
+                <br>
+                <label for="phone">
+                    Phone Number:
+                </label>
+                <input type="tel" id="phone" placeholder="9876543210" required>
+                </label>
+                <br>
+                <br>
+                <label for="dob">
+                    Date of Birth:
+                </label>
+                <input type="date" id="dob" required>
+
+                <br>
+                <br>
+            </fieldset>
+            <br>
+            <fieldset>
+                <!-- genral informatiion -->
+                <legend>Genral Information</legend>
+                <br>
+                <input type="radio" id="female" name="gender">
+                <label for="female">Female</label>
+
+                <input type="radio" id="male" name="gender">
+                <label for="male">Male</label>
+
+                <input type="radio" id="other" name="gender">
+                <label for="other">Other</label>
+            </fieldset>
+            <fieldset>
+                <legend>Skills</legend>
+                <label>Select Your Skills</label>
+                <br>
+                <input type="checkbox" id="mern">
+                <label for="mern">MERN</label>
+                <br>
+                <input type="checkbox" id="ai">
+                <label for="ai">Artificial Inteligence</label>
+                <br>
+                <input type="checkbox" id="data">
+                <label for="data">Data Analyst</label>
+                <br>
+                <input type="checkbox" id="cn">
+                <label for="cn">Computer Engineer</label>
+                <br>
+            </fieldset>
+            <br>
+            <!-- Additional Information -->
+            <fieldset>
+                <legend>Additional Information</legend>
+                <label for="experience">Years of Experience:</label>
+                <select id="experience">
+                    <option disabled selection>--Select--</option>
+                    <option>1 Year</option>
+                    <option>2 Year</option>
+                    <option>3+ Year</option>
+                </select>
+                <br>
+                <br>
+                <label for="location">Preffered Location:</label>
+                <select id="location">
+                    <option>--Select--</option>
+                    <option value="in">India</option>
+                    <option value="bdq">Vadodara</option>
+                    <option value="rn">Ranchi</option>
+                    <option value="nd">Noida</option>
+                </select>
+                <br>
+                <br>
+                <label for="resume">Upload Resume:</label>
+                <input id="resume"type="file" maxlength="10MB" accept=".pdf,.html">
+            </fieldset>
+
+            <br>
+            <button type="submit">Apply Now</button>
+
+            <button type="reset">Reset Form</button>
+        </form>
+    </main>
+</body>
+
+</html>

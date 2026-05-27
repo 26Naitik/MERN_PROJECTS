@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+
+    <!-- heading -->
+    <h1>Student Registration Form</h1>
+
+    <form>
+
+        <!-- Personal information -->
+        <fieldset>
+
+            <legend>Personal Information</legend>
+
+            <!-- name -->
+            <label>
+                Name:
+                <input type="text" placeholder="John Doe">
+            </label>
+
+            <br>
+            <br>
+
+            <!-- email -->
+            <label for="email" >
+                Email:
+                <input type="text" id="email" placeholder="abc@gmail.com" required>
+            </label>
+
+            <br>
+            <br>
+
+            <!-- phone number -->
+            <label for="telephone">
+                Phone number:
+                <input type="tel" id="telephone" placeholder="123-4567-890">
+            </label>
+
+            <br>
+            <br>
+
+            <!-- date of birth -->
+            <label for="DOB">
+                DOB:
+                <input type="date" id="DOB">
+            </label>
+
+        </fieldset>
+
+        <br>
+
+        <!-- General Information -->
+        <fieldset>
+
+            <legend>General Information</legend>
+
+            Gender:
+
+            <input type="radio" id="male" name="gender">
+            <label for="male">Male</label>
+
+            <input type="radio" id="female" name="gender">
+            <label for="female">Female</label>
+
+            <br>
+            <br>
+
+        </fieldset>
+
+        <br>
+
+        <!-- Course Information -->
+        <fieldset>
+
+            <legend>Course Information</legend>
+
+            <!-- course -->
+            <label for="course">
+                Course:
+            </label>
+
+            <select id="course">
+
+                <option>Select Course</option>
+                <option>B.Tech CSE</option>
+                <option>B.Tech IT</option>
+                <option>BCA</option>
+                <option>MCA</option>
+
+            </select>
+
+            <br>
+            <br>
+
+            <!-- department -->
+            <label for="department">
+                Department:
+                <input type="text" id="department" placeholder="Computer Science">
+            </label>
+
+            <br>
+            <br>
+
+            <!-- year -->
+            <label for="year">
+                Year:
+                <input type="number" id="year" placeholder="1" min="0" max="4">
+            </label>
+
+        </fieldset>
+
+        <br>
+
+        <!-- buttons -->
+        <button type="submit">Submit</button>
+
+        <button type="reset">Reset</button>
+
+    </form>
+
+</body>
+</html>
