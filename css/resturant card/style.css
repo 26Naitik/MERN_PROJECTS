@@ -1,0 +1,108 @@
+:root{
+    --card-bg: #eee;
+
+    --drink-color: white;
+    --pizza-color: white;
+    --burger-color: white;
+
+    --drink-head: purple;
+    --pizza-head: #ffcc00;
+    --burger-head: #66cc66;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+
+    font-family: Arial, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+
+.card{
+    width: 500px;
+
+    background-color: var(--card-bg);
+
+    padding: 20px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 0 10px lightgray;
+}
+
+h1{
+    text-align: center;
+
+    margin-bottom: 20px;
+
+    
+}
+h2{
+    color:white;
+}
+
+.box{
+    margin-bottom: 20px;
+
+    border-radius: 10px;
+
+    overflow: hidden;
+}
+
+
+
+.title{
+    padding: 12px;
+
+    border-bottom: 2px solid black;
+}
+
+
+
+.content{
+    padding: 15px;
+}
+
+
+
+.drink{
+    background-color: var(--drink-color);
+}
+
+.drink .title{
+    background-color: var(--drink-head);
+}
+
+
+
+.pizza{
+    background-color: var(--pizza-color);
+}
+
+.pizza .title{
+    background-color: var(--pizza-head);
+}
+
+
+
+.burger{
+    background-color: var(--burger-color);
+}
+
+.burger .title{
+    background-color: var(--burger-head);
+}
+
+p{
+    line-height: 1.6;
+}
