@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-/* header */
+
 
 header{
     background-color: white;
@@ -51,7 +51,7 @@ header{
     font-weight: 500;
 }
 
-/* sidebar */
+
 
 #sidebar{
     width: 15%;
@@ -68,7 +68,7 @@ header{
     font-size: 18px;
 }
 
-/* videos section */
+
 
 #videos{
     width: 80%;
@@ -101,7 +101,6 @@ header{
     font-size: 14px;
 }
 
-/* footer */
 
 footer{
     background-color: black;
