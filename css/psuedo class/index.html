@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a:visited{
+            color: purple;
+        }
+        a:active{
+            border: 2px solid black;
+        }
+        li:first-child{
+            color: red;
+        }
+        li:last-child{
+            color: green;
+        }
+        li:nth-child(3){
+            color: blue;
+        }
+        li::after{
+            content: " - This is a list item";
+        }
+        li::before{
+            content: "*";
+        }
+    </style>
+</head>
+<body>
+   <ul>
+    <li>Home </li>
+    <li>About </li>
+    <li>Contact </li>
+    <li>Services</li>
+    <li>Products</li>
+   </ul>
+</body>
+</html>

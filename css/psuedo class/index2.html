@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            /* align-items: center;
+            justify-content: center; */
+            height: 100vh;
+        }
+        .box{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            position: relative;
+            animation: rotatebox 5s linear infinite;
+            animation-duration: 4s;
+            animation-iteration-count: 2;
+            align-items: center;
+            justify-content: center;
+        }
+        @keyframes rotatebox{
+            0%{
+                left:0;
+                top:0;
+            }
+            25%{
+                left: 300px;
+                top: 0;
+            }
+            50%{
+                left: 300px;
+                top: 300px;
+            }
+            75%{
+                left: 0;
+                top: 300px;
+            }
+            100%{
+                left: 0;
+                top: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box"><</div>
+</body>
+</html>
