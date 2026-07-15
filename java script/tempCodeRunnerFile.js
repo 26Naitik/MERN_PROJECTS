@@ -1,9 +1,16 @@
-//using freeze method to freeze the object
-// Object.freeze(car);
-// Object.freeze(laptop);
+let obj = {
+//     key1: "value1",
+//     key2: "value2",
+//     key3: "value3"  
+// }
 
-// //adding new property to object after freezing
-// car.owner = "Riya";
-// laptop.owner = "Priya";
-// console.log(car.owner);
-// console.log(laptop.owner);
+// //JSON:
+// let obj= {
+//     email: "john@example.com",
+//     password: "123456"
+// }
+
+// status:200 
+// //JSON.stringify = converts js object to json string
+// let jsonString = JSON.stringify(obj);
+// console.log(jsonString);
